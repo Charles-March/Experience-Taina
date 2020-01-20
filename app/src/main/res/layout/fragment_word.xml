@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/letterPosition1"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:layout_marginStart="@dimen/CircleSizeBetween"
+        android:background="@drawable/letter_back_blue"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/letterPosition2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letterPosition2"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:layout_marginStart="@dimen/CircleSizeBetween"
+        android:background="@drawable/letter_back_blue"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/letterPosition3"
+        app:layout_constraintStart_toEndOf="@+id/letterPosition1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letterPosition3"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:layout_marginStart="@dimen/CircleSizeBetween"
+        android:background="@drawable/letter_back_blue"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/letterPosition4"
+        app:layout_constraintStart_toEndOf="@+id/letterPosition2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letterPosition4"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:layout_marginStart="@dimen/CircleSizeBetween"
+        android:background="@drawable/letter_back_blue"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/letterPosition5"
+        app:layout_constraintStart_toEndOf="@+id/letterPosition3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letterPosition5"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:layout_marginStart="@dimen/CircleSizeBetween"
+        android:background="@drawable/letter_back_blue"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/letterPosition6"
+        app:layout_constraintStart_toEndOf="@+id/letterPosition4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letterPosition6"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="@dimen/CircleSizeBetween"
+        android:layout_marginStart="@dimen/CircleSizeBetween"
+        android:background="@drawable/letter_back_blue"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/letterPosition5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/letter1"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/letter_back"
+        android:gravity="center"
+        android:text="A"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/letterPosition1" />
+
+    <TextView
+        android:id="@+id/letter2"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/letter_back"
+        android:gravity="center"
+        android:text="A"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/letterPosition2" />
+
+    <TextView
+        android:id="@+id/letter3"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/letter_back"
+        android:gravity="center"
+        android:text="A"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/letterPosition3" />
+
+    <TextView
+        android:id="@+id/letter4"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/letter_back"
+        android:gravity="center"
+        android:text="A"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/letterPosition4" />
+
+    <TextView
+        android:id="@+id/letter5"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/letter_back"
+        android:gravity="center"
+        android:text="A"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/letterPosition5" />
+
+    <TextView
+        android:id="@+id/letter6"
+        android:layout_width="@dimen/CircleSize"
+        android:layout_height="@dimen/CircleSize"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/letter_back"
+        android:gravity="center"
+        android:text="A"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/letterPosition6" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
